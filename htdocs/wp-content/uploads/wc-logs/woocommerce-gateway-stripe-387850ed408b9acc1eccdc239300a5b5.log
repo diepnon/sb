@@ -1,0 +1,572 @@
+11-30-2016 @ 23:10:58 - Info: Begin processing payment for order 4147 for the amount of 84.66
+11-30-2016 @ 23:10:58 - charges request: Array
+(
+    [currency] => cad
+    [amount] => 8466
+    [description] => Silver Back Supps - Order 4147
+    [capture] => true
+    [expand[]] => balance_transaction
+    [source] => tok_19LhE2HJSLpdKt3wWtanJfma
+)
+
+11-30-2016 @ 23:10:59 - Processing response: stdClass Object
+(
+    [id] => ch_19LhE6HJSLpdKt3wsSIQkozl
+    [object] => charge
+    [amount] => 8466
+    [amount_refunded] => 0
+    [application] => 
+    [application_fee] => 
+    [balance_transaction] => stdClass Object
+        (
+            [id] => txn_19LhE7HJSLpdKt3w2p7SJH6D
+            [object] => balance_transaction
+            [amount] => 8466
+            [available_on] => 1481068800
+            [created] => 1480547458
+            [currency] => cad
+            [description] => Silver Back Supps - Order 4147
+            [fee] => 276
+            [fee_details] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [amount] => 276
+                            [application] => 
+                            [currency] => cad
+                            [description] => Stripe processing fees
+                            [type] => stripe_fee
+                        )
+
+                )
+
+            [net] => 8190
+            [source] => ch_19LhE6HJSLpdKt3wsSIQkozl
+            [sourced_transfers] => stdClass Object
+                (
+                    [object] => list
+                    [data] => Array
+                        (
+                        )
+
+                    [has_more] => 
+                    [total_count] => 0
+                    [url] => /v1/transfers?source_transaction=ch_19LhE6HJSLpdKt3wsSIQkozl
+                )
+
+            [status] => pending
+            [type] => charge
+        )
+
+    [captured] => 1
+    [created] => 1480547458
+    [currency] => cad
+    [customer] => 
+    [description] => Silver Back Supps - Order 4147
+    [destination] => 
+    [dispute] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 
+    [metadata] => stdClass Object
+        (
+        )
+
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [receipt_email] => 
+    [receipt_number] => 
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_19LhE6HJSLpdKt3wsSIQkozl/refunds
+        )
+
+    [review] => 
+    [shipping] => 
+    [source] => stdClass Object
+        (
+            [id] => card_19LhE2HJSLpdKt3wCLXHuVum
+            [object] => card
+            [address_city] => 
+            [address_country] => 
+            [address_line1] => 
+            [address_line1_check] => 
+            [address_line2] => 
+            [address_state] => 
+            [address_zip] => 
+            [address_zip_check] => 
+            [brand] => Visa
+            [country] => US
+            [customer] => 
+            [cvc_check] => pass
+            [dynamic_last4] => 
+            [exp_month] => 12
+            [exp_year] => 2017
+            [fingerprint] => pIu7kcdV8kQbUp1O
+            [funding] => credit
+            [last4] => 4242
+            [metadata] => stdClass Object
+                (
+                )
+
+            [name] => chrislhamelin@gmail.com
+            [tokenization_method] => 
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [status] => succeeded
+)
+
+11-30-2016 @ 23:11:12 - Success: Stripe charge complete (Charge ID: ch_19LhE6HJSLpdKt3wsSIQkozl)
+11-30-2016 @ 23:28:08 - Info: Begin processing payment for order 4148 for the amount of 93.68
+11-30-2016 @ 23:28:08 - charges request: Array
+(
+    [currency] => cad
+    [amount] => 9368
+    [description] => Silver Back Supps - Order 4148
+    [capture] => true
+    [expand[]] => balance_transaction
+    [source] => tok_19LhUfHJSLpdKt3wzmyp2nLU
+)
+
+11-30-2016 @ 23:28:09 - Processing response: stdClass Object
+(
+    [id] => ch_19LhUjHJSLpdKt3wEfCIcXR7
+    [object] => charge
+    [amount] => 9368
+    [amount_refunded] => 0
+    [application] => 
+    [application_fee] => 
+    [balance_transaction] => stdClass Object
+        (
+            [id] => txn_19LhUjHJSLpdKt3wFVcmUwIo
+            [object] => balance_transaction
+            [amount] => 9368
+            [available_on] => 1481068800
+            [created] => 1480548489
+            [currency] => cad
+            [description] => Silver Back Supps - Order 4148
+            [fee] => 302
+            [fee_details] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [amount] => 302
+                            [application] => 
+                            [currency] => cad
+                            [description] => Stripe processing fees
+                            [type] => stripe_fee
+                        )
+
+                )
+
+            [net] => 9066
+            [source] => ch_19LhUjHJSLpdKt3wEfCIcXR7
+            [sourced_transfers] => stdClass Object
+                (
+                    [object] => list
+                    [data] => Array
+                        (
+                        )
+
+                    [has_more] => 
+                    [total_count] => 0
+                    [url] => /v1/transfers?source_transaction=ch_19LhUjHJSLpdKt3wEfCIcXR7
+                )
+
+            [status] => pending
+            [type] => charge
+        )
+
+    [captured] => 1
+    [created] => 1480548489
+    [currency] => cad
+    [customer] => 
+    [description] => Silver Back Supps - Order 4148
+    [destination] => 
+    [dispute] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 
+    [metadata] => stdClass Object
+        (
+        )
+
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [receipt_email] => 
+    [receipt_number] => 
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_19LhUjHJSLpdKt3wEfCIcXR7/refunds
+        )
+
+    [review] => 
+    [shipping] => 
+    [source] => stdClass Object
+        (
+            [id] => card_19LhUeHJSLpdKt3wJH2JMDxQ
+            [object] => card
+            [address_city] => 
+            [address_country] => 
+            [address_line1] => 
+            [address_line1_check] => 
+            [address_line2] => 
+            [address_state] => 
+            [address_zip] => 
+            [address_zip_check] => 
+            [brand] => Visa
+            [country] => US
+            [customer] => 
+            [cvc_check] => pass
+            [dynamic_last4] => 
+            [exp_month] => 12
+            [exp_year] => 2018
+            [fingerprint] => pIu7kcdV8kQbUp1O
+            [funding] => credit
+            [last4] => 4242
+            [metadata] => stdClass Object
+                (
+                )
+
+            [name] => chrislhamelin@gmail.com
+            [tokenization_method] => 
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [status] => succeeded
+)
+
+11-30-2016 @ 23:28:22 - Success: Stripe charge complete (Charge ID: ch_19LhUjHJSLpdKt3wEfCIcXR7)
+12-03-2016 @ 00:48:02 - Info: Begin processing payment for order 4162 for the amount of 84.66
+12-03-2016 @ 00:48:02 - charges request: Array
+(
+    [currency] => cad
+    [amount] => 8466
+    [description] => Silver Back Supps - Order 4162
+    [capture] => true
+    [expand[]] => balance_transaction
+    [source] => tok_19MRh5HJSLpdKt3wOaDQtJI2
+)
+
+12-03-2016 @ 00:48:03 - Processing response: stdClass Object
+(
+    [id] => ch_19MRh9HJSLpdKt3wJrf4i1K6
+    [object] => charge
+    [amount] => 8466
+    [amount_refunded] => 0
+    [application] => 
+    [application_fee] => 
+    [balance_transaction] => stdClass Object
+        (
+            [id] => txn_19MRh9HJSLpdKt3wfwmMcFV7
+            [object] => balance_transaction
+            [amount] => 8466
+            [available_on] => 1481328000
+            [created] => 1480726083
+            [currency] => cad
+            [description] => Silver Back Supps - Order 4162
+            [fee] => 276
+            [fee_details] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [amount] => 276
+                            [application] => 
+                            [currency] => cad
+                            [description] => Stripe processing fees
+                            [type] => stripe_fee
+                        )
+
+                )
+
+            [net] => 8190
+            [source] => ch_19MRh9HJSLpdKt3wJrf4i1K6
+            [sourced_transfers] => stdClass Object
+                (
+                    [object] => list
+                    [data] => Array
+                        (
+                        )
+
+                    [has_more] => 
+                    [total_count] => 0
+                    [url] => /v1/transfers?source_transaction=ch_19MRh9HJSLpdKt3wJrf4i1K6
+                )
+
+            [status] => pending
+            [type] => charge
+        )
+
+    [captured] => 1
+    [created] => 1480726083
+    [currency] => cad
+    [customer] => 
+    [description] => Silver Back Supps - Order 4162
+    [destination] => 
+    [dispute] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 
+    [metadata] => stdClass Object
+        (
+        )
+
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [receipt_email] => 
+    [receipt_number] => 
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_19MRh9HJSLpdKt3wJrf4i1K6/refunds
+        )
+
+    [review] => 
+    [shipping] => 
+    [source] => stdClass Object
+        (
+            [id] => card_19MRh5HJSLpdKt3wzx5KR2nQ
+            [object] => card
+            [address_city] => 
+            [address_country] => 
+            [address_line1] => 
+            [address_line1_check] => 
+            [address_line2] => 
+            [address_state] => 
+            [address_zip] => 
+            [address_zip_check] => 
+            [brand] => Visa
+            [country] => US
+            [customer] => 
+            [cvc_check] => pass
+            [dynamic_last4] => 
+            [exp_month] => 12
+            [exp_year] => 2022
+            [fingerprint] => pIu7kcdV8kQbUp1O
+            [funding] => credit
+            [last4] => 4242
+            [metadata] => stdClass Object
+                (
+                )
+
+            [name] => chrislhamelin@gmail.com
+            [tokenization_method] => 
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [status] => succeeded
+)
+
+12-03-2016 @ 00:48:16 - Success: Stripe charge complete (Charge ID: ch_19MRh9HJSLpdKt3wJrf4i1K6)
+12-03-2016 @ 00:53:48 - Info: Begin processing payment for order 4163 for the amount of 40
+12-03-2016 @ 00:53:48 - charges request: Array
+(
+    [currency] => cad
+    [amount] => 4000
+    [description] => Silver Back Supps - Order 4163
+    [capture] => true
+    [expand[]] => balance_transaction
+    [source] => tok_19MRmfHJSLpdKt3w9XlCSW2j
+)
+
+12-03-2016 @ 00:53:49 - Processing response: stdClass Object
+(
+    [id] => ch_19MRmjHJSLpdKt3wpjspjvHv
+    [object] => charge
+    [amount] => 4000
+    [amount_refunded] => 0
+    [application] => 
+    [application_fee] => 
+    [balance_transaction] => stdClass Object
+        (
+            [id] => txn_19MRmjHJSLpdKt3w61S5muyb
+            [object] => balance_transaction
+            [amount] => 4000
+            [available_on] => 1481328000
+            [created] => 1480726429
+            [currency] => cad
+            [description] => Silver Back Supps - Order 4163
+            [fee] => 146
+            [fee_details] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [amount] => 146
+                            [application] => 
+                            [currency] => cad
+                            [description] => Stripe processing fees
+                            [type] => stripe_fee
+                        )
+
+                )
+
+            [net] => 3854
+            [source] => ch_19MRmjHJSLpdKt3wpjspjvHv
+            [sourced_transfers] => stdClass Object
+                (
+                    [object] => list
+                    [data] => Array
+                        (
+                        )
+
+                    [has_more] => 
+                    [total_count] => 0
+                    [url] => /v1/transfers?source_transaction=ch_19MRmjHJSLpdKt3wpjspjvHv
+                )
+
+            [status] => pending
+            [type] => charge
+        )
+
+    [captured] => 1
+    [created] => 1480726429
+    [currency] => cad
+    [customer] => 
+    [description] => Silver Back Supps - Order 4163
+    [destination] => 
+    [dispute] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 
+    [metadata] => stdClass Object
+        (
+        )
+
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [receipt_email] => 
+    [receipt_number] => 
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_19MRmjHJSLpdKt3wpjspjvHv/refunds
+        )
+
+    [review] => 
+    [shipping] => 
+    [source] => stdClass Object
+        (
+            [id] => card_19MRmfHJSLpdKt3wdU2jVoN6
+            [object] => card
+            [address_city] => 
+            [address_country] => 
+            [address_line1] => 
+            [address_line1_check] => 
+            [address_line2] => 
+            [address_state] => 
+            [address_zip] => 
+            [address_zip_check] => 
+            [brand] => Visa
+            [country] => US
+            [customer] => 
+            [cvc_check] => pass
+            [dynamic_last4] => 
+            [exp_month] => 1
+            [exp_year] => 2022
+            [fingerprint] => pIu7kcdV8kQbUp1O
+            [funding] => credit
+            [last4] => 4242
+            [metadata] => stdClass Object
+                (
+                )
+
+            [name] => chrislhamelin@gmail.com
+            [tokenization_method] => 
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [status] => succeeded
+)
+
+12-03-2016 @ 00:54:02 - Success: Stripe charge complete (Charge ID: ch_19MRmjHJSLpdKt3wpjspjvHv)
